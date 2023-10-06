@@ -4,6 +4,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(192, 192, 192);
 }
 
 form {
@@ -11,8 +12,24 @@ form {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(102, 114, 244);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
+label {
+    font-size: 20px;
+}
+
 input {
     padding: 10px;
+}
+#new {
+    font-size: 20px;
+}
+.book-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
